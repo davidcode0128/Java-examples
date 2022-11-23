@@ -1,0 +1,11 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+        <form action ="bmi_view.jsp">
+            cm:<br>
+            <input type="text" name="cm" value="170" >
+            <br>
+            kg:<br>
+            <input type="text" name="kg" value="70" >
+            <br><br>
+            <input type="submit" value="送出" >
+        </form>

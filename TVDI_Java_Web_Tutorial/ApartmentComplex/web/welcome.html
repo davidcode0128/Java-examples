@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="./style.css">
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Open Sans;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background: #f7f9fd;
+  justify-content: center;
+}
+
+.card {
+  width: 442px;
+  height: 492px;
+  background: #FFFFFF;
+  box-shadow: 0px 18px 30px -12px rgba(52, 87, 220, 0.367507);
+  border-radius: 6px;
+  padding: 42px 32px;
+}
+.card .title-bar {
+  margin-left: 18px;
+}
+.card .title-bar h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 29px;
+  color: #202842;
+}
+.card .title-bar label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #202842;
+  display: block;
+  margin-top: 11px;
+}
+.card .row {
+  width: 100%;
+  margin-top: 28px;
+}
+.card .row .grid {
+  display: flex;
+  justify-content: space-between;
+}
+.card .row .grid:first-child {
+  margin-bottom: 10.5px;
+}
+.card .row .grid .box {
+  width: 119px;
+  height: 119px;
+  background: #F7F9FD;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2.4px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card .row .grid .box:hover {
+  box-shadow: 0px 6px 11px rgba(52, 87, 220, 0.116876);
+  border: 2.4px solid #B0C1FF;
+  box-sizing: border-box;
+}
+.card .row .grid .box svg {
+  height: 75px;
+}
+.card .row .grid .box span {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+}
+.card .row .grid .box span.last {
+  color: #3457dc;
+}
+.card p {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #202842;
+}
+.card a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.4px;
+  line-height: 20px;
+  /* identical to box height */
+  text-decoration-line: underline;
+  color: #3457DC;
+}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="title-bar">
+    <h2>Welcome</h2>
+    <label>Recommended components</label>
+  </div>
+  
+  <div class="row">
+    
+    <div class="grid">
+      <div class="box">
+        
+        <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.51025 53.1587V20.3785C9.51025 16.2007 12.8971 12.8138 17.0749 12.8138H42.2904C46.4683 12.8138 49.8551 16.2007 49.8551 20.3785V35.5078C49.8551 39.6857 46.4683 43.0725 42.2904 43.0725H19.5965L9.51025 53.1587" stroke="#202842" stroke-width="3.10345" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.8551 23.1586H39.5103" stroke="#202842" stroke-width="3.10345" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.8896 32.469H35.3724" stroke="#202842" stroke-width="3.10345" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        <span>Notifaction</span>
+        
+      </div>
+      <div class="box">
+        
+<svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.8 10.4H43.3C46.0615 10.4 48.3 12.6386 48.3 15.4V45.4C48.3 48.1614 46.0615 50.4 43.3 50.4H15.8C14.4193 50.4 13.3 49.2807 13.3 47.9V12.9C13.3 11.5193 14.4193 10.4 15.8 10.4" stroke="#202842" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.9 20.4H38.3" stroke="#202842" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.9 30.4H38.3" stroke="#202842" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+        <span>Bulletboard</span>
+      </div>
+      <div class="box">
+        <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M40.2001 12.9V22.9C40.2001 24.2807 41.3194 25.4 42.7001 25.4H52.7001" stroke="#202842" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.70007 17.9V42.9C7.70007 45.6614 9.93865 47.9 12.7001 47.9H47.7001C50.4615 47.9 52.7001 45.6614 52.7001 42.9V25.4L40.2001 12.9H12.7001C9.93865 12.9 7.70007 15.1386 7.70007 17.9Z" stroke="#202842" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.0001 25.65H31.4001" stroke="#202842" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.0001 35.25L42.8001 35.8" stroke="#202842" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        
+        
+        
+        <span>Profile</span>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="box">
+        <svg width="98" height="27" viewBox="0 0 98 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2" y="1.79999" width="93.6" height="22.8" rx="2.4" stroke="#202842" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26.6 12.65L59.6 13.2" stroke="#202842" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="15.1999" cy="13.2" r="5.4" fill="#202842"/>
+</svg>
+        <span>Forum</span>
+      </div>
+      <div class="box">
+        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M33.2001 22.5999L43.2167 17.5927C43.8985 17.2521 44.708 17.2885 45.3564 17.6891C46.0048 18.0897 46.3997 18.7974 46.4001 19.5595V34.4403C46.3997 35.2025 46.0048 35.9102 45.3564 36.3108C44.708 36.7114 43.8985 36.7478 43.2167 36.4071L33.2001 31.3999V22.5999Z" stroke="#202842" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="6.80005" y="13.8" width="26.4" height="26.4" rx="4.4" stroke="#202842" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        <span>Vote</span>
+
+      </div>
+      <div class="box">
+          <svg width="15" height="28" viewBox="0 0 15 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14.409 14.8769L3.50134 27.1591C3.24906 27.4434 2.91228 27.6 2.55319 27.6C2.1941 27.6 1.85732 27.4434 1.60504 27.1591L0.801762 26.2548C0.279065 25.6655 0.279065 24.7078 0.801762 24.1195L9.96123 13.8057L0.791599 3.48046C0.539318 3.19616 0.400024 2.81717 0.400024 2.41305C0.400024 2.00848 0.539318 1.62948 0.791599 1.34496L1.59488 0.440899C1.84736 0.156599 2.18393 -2.47955e-05 2.54303 -2.47955e-05C2.90212 -2.47955e-05 3.23889 0.156599 3.49118 0.440899L14.409 12.7342C14.6619 13.0194 14.8008 13.4002 14.8 13.805C14.8008 14.2114 14.6619 14.592 14.409 14.8769Z" fill="#3457DC"/>
+</svg>
+        <span class="last">Logout</span>
+      </div>
+    </div>
+    
+  </div>
+  
+  <p>Need support or have some feedback?</p>
+  <a href="#">Customer service</a>
+  
+  
+  
+</div>
+  
+</body>
+</html>
